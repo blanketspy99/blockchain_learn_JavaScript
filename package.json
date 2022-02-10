@@ -1,0 +1,23 @@
+{
+  "name": "bc_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.2"
+  }
+}
